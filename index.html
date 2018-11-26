@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bitcoin Price API</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<body>
+  
+  <div class="container">
+    <h1>The Price for Bitcoin is: </h1>
+    <p><span id="applyCur">&#36; </span><span id="price"></span></p>
+    
+    <button id="btn">Refresh Price</button>
+    
+    <fieldset>
+        <legend>Select a Currency</legend>
+    
+        <div>
+            <input type="radio" id="usCur" name="cur" checked />
+            <label for="usCur">Dollars</label>
+        </div>
+    
+        <div>
+            <input type="radio" id="EngCur" name="cur" />
+            <label for="EngCur">Pounds</label>
+        </div>
+    
+        <div>
+            <input type="radio" id="EuroCur" name="cur" />
+            <label for="EuroCur">Euros</label>
+        </div>
+    
+    </fieldset>
+    
+  </div>
+
+</body>
+
+</html>

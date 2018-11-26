@@ -1,0 +1,46 @@
+body {
+  margin: 100px;
+  text-align: center;
+  min-width: 350px;
+  background-color: #D3D3D3;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+p,
+#applyCur,
+#price {
+  color: green;
+  font-size: 40px;
+
+}
+
+legend {
+  background-color: gray;
+  color: black;
+  padding: 5px 5px;
+}
+
+input {
+  margin: 10px;
+}
+
+fieldset {
+  text-align: start;
+  max-width: 200px;
+  margin: auto;
+}
+
+#btn {
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 50px;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
